@@ -2,6 +2,7 @@
 body {
   font-family: "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
   background-color: #edede3;
+  background-image: url(back.jpg);
   margin: 0;
 }
 
@@ -32,6 +33,11 @@ header h1 {
     margin-right: auto;
 }
 
+header h1 img {
+  vertical-align: -10px;
+  margin-right: 5px;  
+}
+
 article {
   background-color: #ffffff;
   width: 900px;
@@ -46,12 +52,14 @@ article {
   -webkit-box-shadow: 1px 1px 3px #aaaaaa;
   box-shadow: 1px 1px 3px #aaaaaa;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 footer {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
+  clear: both;
 }
 
 figure.photo-center {
@@ -59,4 +67,24 @@ figure.photo-center {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+figure.photo-left {
+  margin: 0;
+  margin-right: 20px;
+  float: left;
+}
+
+figure.photo-left img {
+  width: 550px;
+}
+
+figure.photo-right {
+  margin: 0;
+  margin-left: 20px;
+  float: right;
+}
+
+figure.photo-right img {
+  width: 550px;
 }
