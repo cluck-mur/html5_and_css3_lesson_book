@@ -73,6 +73,7 @@ figure.photo-left {
   margin: 0;
   margin-right: 20px;
   float: left;
+  text-align: center;
 }
 
 figure.photo-left img {
@@ -83,6 +84,7 @@ figure.photo-right {
   margin: 0;
   margin-left: 20px;
   float: right;
+  text-align: center;
 }
 
 figure.photo-right img {
